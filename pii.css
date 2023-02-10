@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+.headbg{
+    display: flex;
+    flex-direction: column;
+    scale: .9;
+    text-align: left;
+    
+    
+}
+.innerhead{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: fit-content;
+}
+.abttext{
+    width: 300px;
+}
+.pn{
+    align-self: flex-start;
+}
+.pq{
+    width: fit-content;
+    float: left;
+}
+.abtsection h3{
+    text-align: -webkit-center;
+}
+.prog{
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 350px;
+    justify-content: center;
+    padding-top: 40px;
+}
